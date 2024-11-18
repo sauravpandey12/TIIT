@@ -1,0 +1,17 @@
+How to use animation
+=============================
+fadeInDown
+fadeInUp
+fadeInLeft
+fadeInRight
+
+
+<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay=".25s">
+  <%-- .................animation........................... --%>
+     <link href="animation/animate.css" rel="stylesheet" />
+    <script src="animation/wow.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+	
+	

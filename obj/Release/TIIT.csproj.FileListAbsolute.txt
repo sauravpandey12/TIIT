@@ -1,0 +1,7 @@
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\bin\TIIT.dll
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\bin\TIIT.pdb
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\obj\Release\TIIT.dll
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\obj\Release\TIIT.pdb
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\bin\TIIT.dll.config
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\obj\Release\TIIT.csproj.AssemblyReference.cache
+E:\saurav_web\saurav\TIIT\TIIT\TIIT\obj\Release\TIIT.csproj.CoreCompileInputs.cache

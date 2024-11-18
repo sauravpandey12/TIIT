@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="TIIT.MasterAdmin.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keyword" content="TIIT" />
+    <meta name="description" content="TIIT" />
+
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server" />
+    </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <!--Core CSS -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Calendar -->
+    <link href="calender/jqueryUI.css" rel="stylesheet" />
+    <script src="calender/jquery-ui.js"></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <section id="container">
+            <!--header start-->
+            <header class="header fixed-top clearfix">
+                <!--logo start-->
+                <div class="brand">
+                    <div class="sidebar-toggle-box">
+                        <div class="fa fa-bars"></div>
+                    </div>
+
+                    <a href="Dashboard.aspx" class="logo">TIIT
+                       <%-- <img src="images/logo.png" alt="" />--%>
+                    </a>
+
+                    <div class="top-nav clearfix">
+                        <!--search & user info start-->
+                        <ul class="nav pull-right top-menu">
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <img alt="" src="images/avatar1_small.jpg" />
+                                    <span class="username">
+                                        <asp:Label ID="lbl_welcome" runat="server" Text=""></asp:Label></span>
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu extended logout">
+                                    <li>
+                                        <asp:LinkButton ID="lnkLogOut" runat="server" OnClick="lnkLogOut_Click" CausesValidation="false"><i class="fa fa-key"></i> Log out</asp:LinkButton></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!--logo end-->
+            </header>
+            <!--header end-->
+            <aside>
+                <div id="sidebar" class="nav-collapse">
+                    <!-- sidebar menu start-->
+                    <div class="leftside-navigation">
+                        <ul class="sidebar-menu" id="nav-accordion">
+                            <li>
+                                <a href="Dashboard.aspx">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="Add-News.aspx">
+                                    <i class="fa fa-newspaper-o"></i>
+                                    <span>Add/Edit News</span>
+                                </a>
+                            </li>
+
+
+                            <li class="sub-menu">
+                                <a href="javascript:">
+                                    <i class="fa fa-picture-o"></i>
+                                    <span>Gallery</span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="Upload-Image.aspx">Upload Images</a></li>
+                                    <li><a href="Media_Coverage.aspx">Upload Media Coverage</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="javascript:">
+                                    <i class="fa fa-video-camera"></i>
+                                    <span>Video</span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="add-video-category.aspx">Add Category</a></li>
+                                    <li><a href="Upload-video.aspx">Upload Video</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="Contact-Enquiry.aspx">
+                                    <i class="fa fa-phone"></i>
+                                    <span>View Contact Enquiry</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="Notice_Board.aspx">
+                                    <i class="fa fa-calendar-o"></i>
+                                    <span>Upload Notice</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="View-Career.aspx">
+                                    <i class="fa fa-user"></i>
+                                    <span>View Career</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="Popup.aspx">
+                                    <i class="fa fa-picture-o"></i>
+                                    <span>Upload Popup</span>
+                                </a>
+                            </li>
+
+                          <li class="sub-menu">
+                                <a href="Download.aspx">
+                                    <i class="fa fa-upload"></i>
+                                    <span>Upload Download File</span>
+                                </a>
+                            </li>
+
+                         
+                            <li class="sub-menu">
+                                <a href="javascript:">
+                                    <i class="fa fa-cogs"></i>
+                                    <span>Setting</span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="Change-Password.aspx">Change Password</a></li>
+                                </ul>
+                            </li>
+
+                            </ul>
+                    </div>
+                    <!-- sidebar menu end-->
+                </div>
+            </aside>
+            <!--sidebar end-->
+
+        </section>
+
+
+        <!--Core js-->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.dcjqaccordion.2.7.js"></script>
+        <script src="js/jquery.nicescroll.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <section>
+          <%--  <div class="footer">
+                <p class="footer-p">
+                    ©2024 All Rights Reserved TIIT | <span>Designed & Developed by <a  style="color: #bb2221;">Saurav Pandey,  </a></span>
+                </p>
+            </div>--%>
+        </section>
+
+
+    </form>
+
+</body>
+</html>

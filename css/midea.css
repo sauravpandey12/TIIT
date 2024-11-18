@@ -1,0 +1,681 @@
+﻿
+@media screen and (max-width:900px) {
+
+    .container-small {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .padd-right {
+        padding-right: 15px !important;
+    }
+
+    .padd-left {
+        padding-left: 15px !important;
+    }
+
+    /*********logo header ****************/
+    .headersec-logo {
+        margin: 0px auto;
+    }
+
+    /********logo***********/
+    .logo-sec-two {
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 10px 0px!important;
+        height: auto!important;
+        /*z-index: inherit !important;*/
+    }
+
+    .top-icons-ul {
+        text-align: center;
+    }
+
+    .logohead222 {
+        margin: 0px auto;
+        float: none;
+        width: 250px;
+        display: none;
+    }
+
+    .textmainsecc-a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .top-header-icons-ul li a {
+        font-size: 12px;
+    }
+
+    .top-header-icons-ul {
+        text-align: center;
+    }
+
+    /***************menu***************/
+    .menu-sec {
+        margin: 0px 0px 0px 0px!important;
+    }
+
+    .onlinereg-main {
+        text-align: center;
+        display: none;
+    }
+
+    .logof {
+        margin: 0px 0px 0px 0px!important;
+    }
+
+    .resmobile-logo {
+        margin: 0px 0px 0px 0px!important;
+    }
+
+    .logohead {
+        margin: 0px 0px 0px 0px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .top-header-sec {
+        height: auto;
+    }
+
+    .topheader-t66 {
+        height: auto;
+    }
+
+    .menu-secmm {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .newshealine-p {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .latestnewssec-mainn {
+        width: 100%;
+    }
+
+    .newshealine {
+        width: 60%;
+    }
+
+    /***************slider***************/
+    .indicators-line > .carousel-indicators {
+        display: inherit;
+    }
+
+    .slide-text > h1 {
+        font-size: 13px !important;
+        line-height: 21px!important;
+    }
+
+    .slide-text > h2 {
+        font-size: 13px !important;
+        line-height: 21px!important;
+    }
+
+    .slide-text > p {
+        display: none !important;
+    }
+
+    .slide-text > a.btn-default {
+        display: none !important;
+    }
+
+    .slide-text > a.btn-primary {
+        display: none !important;
+    }
+
+    .slide-text {
+        padding: 10px!important;
+        top: 14%!important;
+        display: none !important;
+    }
+
+    .control-round .carousel-control {
+        top: 38% !important;
+    }
+
+    .appointmentsec3c {
+        padding: 5px 0px 10px 0px;
+    }
+
+    .appointmentsec3c-texth2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .appointtext-num {
+        font-size: 20px;
+        text-align: center;
+        line-height: 29px;
+    }
+
+    .control-round .carousel-control.left {
+        display: none;
+    }
+
+    .control-round .carousel-control.right {
+        display: none;
+    }
+    /**********about second******/
+
+    .aboutworking {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .aboutworking-main {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .working-timesetexth2 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .personal-healthsecbtn {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .hvr-bounce-to-top3 {
+        padding: 10px 30px 10px 30px;
+    }
+    /**************about us**************/
+    .aboutdefault {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .aboutdefault-texth2 {
+        margin: 20px 0px 0px 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .aboutdefault-text-h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .aboutdefault-textp {
+        text-align: justify;
+    }
+
+    .aboutus-sec {
+        margin: 20px 0px 40px 0px;
+    }
+
+    .getanap-defauth2 {
+        font-size: 29px;
+    }
+
+    /*******choose us********/
+    .department-textmm-h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .department-sec {
+        margin: 20px 0px 10px 0px;
+    }
+
+    .sbox-2 {
+        padding: 30px 0px 60px 10px;
+    }
+
+
+
+    /**************gallery*************/
+    .gllery-textmm-h2 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .agileits-img {
+        margin: 0px 0px 15px 0px !important;
+    }
+
+    /************footer*************/
+    .quick-links {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .about-footer-sec-h2 {
+        margin: 10px 0px 10px 0px;
+        font-size: 20px;
+    }
+
+    .footer-down-iner p {
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .footer-down-iner2 {
+        float: none;
+    }
+
+    .designer_link2 {
+        text-align: center;
+    }
+
+    .designerlin66 {
+        float: none;
+    }
+
+    .main-footer-top {
+        margin: 0px 0px 0px 0px !important;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .footerlogo33 {
+        width: 200px;
+    }
+
+
+    .footboxmain234 {
+        padding: 10px 0px 10px 0px;
+        border-left: none;
+    }
+
+    .flogomain {
+        width: 200px;
+        margin: 0px auto;
+        padding: 0px 0px 10px 0px;
+        float: none;
+    }
+
+    .footer-top-bx-sec {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .footersect-border {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .footer-top-bx-ico-sec {
+        line-height: 45px !important;
+    }
+
+
+
+    /*********contact us*/
+    .aboutus-pagetext-h2 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+
+    .pagetextma345 {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .updatingsoon-sec-h2 {
+        font-size: 23px;
+    }
+
+    .text-headingtt-h2 {
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+    }
+
+    .contact-shadw33 {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .aboutus-pagetext-ul {
+        width: 100%;
+        text-align: center;
+        padding: 5px 5px;
+    }
+
+    .aboutus-page-bg {
+        padding: 20px 0px 10px 0px;
+    }
+
+    .cont-secbox22 {
+        font-size: 30px !important;
+    }
+
+    .contact-secbox2 {
+        padding: 0px 0px 0px 40px;
+    }
+
+    .messbox-sec-h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .formcontrol {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .texbox-border {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .contactus-sec {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .contactus-locationsec {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .cont-loca {
+        height: 300px;
+    }
+
+    .p-page {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .background-images22 {
+        height: 150px;
+    }
+
+
+    .contactlocgin {
+        margin: 10px 0px 0px 0px;
+    }
+
+
+    .pagesect-textmission {
+        margin: 10px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .keypoint-main {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .buttonsubmit {
+        margin: 2px 0px 0px 0px;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .course-bar span {
+        font-size: 11px;
+    }
+
+    .admin-name {
+        font-size: 11px;
+    }
+
+    .login-buttonsec-a {
+        width: 88px !important;
+        font-size: 13px!important;
+    }
+
+    .locationbackgrou {
+        margin: 30px 0px 0px 0px;
+    }
+    /**************media*about page*/
+    .allpage-text-p {
+        text-align: justify;
+    }
+
+    .intimages {
+        margin: 10px 0px 5px 0px;
+    }
+
+    .pagedata-sec {
+        padding: 30px 0px 30px 0px;
+    }
+
+
+    /************subscribe******/
+    .submitnow-secc {
+        height: auto;
+    }
+
+    .submitnow-seccmain-h2 {
+        font-size: 22px;
+    }
+
+    .search-buttonss {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .submitnow-seccmain {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .search-buttonss {
+        margin: 30px 0px 30px 0px;
+    }
+
+    /***********experience*******/
+    .expdoc-h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0px 0px 20px 0px;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .expdoc-pp {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /**********about us*/
+    .aboutussectext2-h2 {
+        margin: 0px 0px 20px 0px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .aboutussectext2-p22 {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .abobtnnn123 {
+        padding: 12px 10px 13px 10px;
+    }
+
+    .boxab {
+        margin: 30px 0px 0px 0px;
+    }
+
+    /**********services********/
+    .mainsecser33 {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .serviceBox .title {
+        font-size: 20px;
+    }
+
+    .serviceBox {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .newsdefaulll {
+        padding: 30px 0px 0px 0px;
+    }
+
+
+    /**********team********/
+    .team-h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .our-team {
+        margin: 0px 0px 100px 0px;
+    }
+
+    .team-sec {
+        padding: 15px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    /**********content enq********/
+
+    .doctactteam34-h2 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+    /*********contdefautl*/
+
+    .doctactteam34 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .doccont23 {
+        width: 300px;
+        margin: 0px auto;
+        float: none;
+    }
+
+    /**********testimonials*/
+    .owltext-imagexx {
+        width: 100%;
+    }
+
+    .owltext-imagexxtxx {
+        width: 100%;
+    }
+
+    .team-imgsec-h4 {
+        margin: 20px 0px 0px 0px !important;
+        text-align: justify!important;
+        font-size: 15px!important;
+    }
+
+    .team-imgsec-h2 {
+        margin: 20px 0px 20px 0px !important;
+        text-align: center !important;
+    }
+
+    .studentsays-secbgg {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .testmonial333 {
+        padding: 20px 15px 20px 15px!important;
+    }
+
+
+    /**********our benefits********/
+    .ourbenefit-main {
+        width: 100%;
+    }
+
+    .ourbenefit-maintext {
+        width: 100%;
+        padding: 30px 15px 20px 15px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .texxtmainexp {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .ourbenefit-h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    /**************contact us**************/
+    .boxgall im {
+        height: auto !important;
+    }
+
+    .text-headingtt-h266 {
+        margin: 0px 0px 20px 0px;
+        font-size: 25px;
+    }
+    /**********quick link*/
+    .servfacilitw-h2 {
+        margin: 0px 0px 30px 0px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .quicklinkkd {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .ourbenefit-p22 {
+        text-align: justify;
+    }
+
+    .topheaderborder {
+        display: none;
+    }
+
+
+    .aboupage-section {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .updatingsoon-sec {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .contact-secbox2-a {
+        font-size: 14px;
+    }
+
+    /************team*/
+    .our-team {
+        margin-bottom: 30px;
+    }
+
+    .our-speakersec34 {
+        padding: 30px 0px 0px 0px;
+    }
+
+
+    /*************director********/
+    .email-signature {
+        padding-top: 80px;
+    }
+
+        .email-signature .signature-img {
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        }
+
+        .email-signature .signature-details {
+            text-align: center;
+            padding: 115px 0 15px 0;
+            border-radius: 0 0 50px 50px;
+            box-shadow: 0 -6px 0 1px var(--shadow-color) inset;
+        }
+
+        .email-signature .signature-content {
+            text-align: center;
+            padding: 10px 10px 10px 0;
+        }
+
+        .email-signature .title {
+            font-size: 20px;
+            margin: 0px 0px 10px 0px;
+        }
+
+        .email-signature .post {
+            font-size: 15px;
+            padding: 0px 15px 0px 15px;
+        }
+
+    .director-defauu {
+        padding: 40px 0px 30px 0px;
+        float: left;
+    }
+    /********end*/
+
+    .servfacilitw-p {
+        padding: 0px 10px;
+    }
+    .orgainhead-h2 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

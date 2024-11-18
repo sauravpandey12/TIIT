@@ -1,0 +1,613 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="TIIT.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="TIIT College, Tauheed Institute of Technology, Katihar, top college in katihar, top IT College in katihar," />
+    <meta name="description" content="College Management System College" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server" />
+    </title>
+
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Amaranth:wght@400;700&family=Baloo+2:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600&family=Cookie&family=Karma:wght@300;400;500;700&family=Libre+Baskerville:wght@400;700&family=Markazi+Text:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&family=Oswald:wght@200;300;400;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400&family=Signika+Negative:wght@300;400;500;600;700&family=Vidaloka&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <%-- .................css........................... --%>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/midea.css" rel="stylesheet" />
+    <link href="css/login_modal.css" rel="stylesheet" />
+    <link href="Popup/popup.css" rel="stylesheet" />
+
+
+    <%-- .................js........................... --%>
+    <script src="js/jquery.js"></script>
+
+    <%-- ..............................slider css main top.............................. --%>
+    <link href="slider/css/fancyBox.css" rel="stylesheet" />
+    <link href="slider/css/animate.min.css" rel="stylesheet" />
+    <link href="slider/css/style.css" rel="stylesheet" />
+
+    <%-- .................menu........................... --%>
+    <script src="menu/script.js"></script>
+    <link href="menu/style.css" rel="stylesheet" />
+
+    <%-- .................animation........................... --%>
+    <link href="animation/animate.css" rel="stylesheet" />
+    <script src="animation/wow.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+
+
+    <script language="Javascript">
+       <!--
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode != 46 && charCode > 31
+          && (charCode < 48 || charCode > 57))
+            return false;
+
+        return true;
+    }
+    function onlyZeroandOne(evt) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode < 48 || charCode > 49)
+            return false;
+
+        return true;
+    }
+    //-->
+    </script>
+
+    <style>
+
+        .logohead222 {
+    margin: 17px 0px 0px 0px;
+   
+}
+        .about-footer-sec-h55552{
+        height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 800;
+    text-align: left;
+}
+        .main-footer-top {
+   
+    background-color: #0e1f33;
+}
+        .about-footer-sec-h2 {
+   
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: left;
+}
+        .quickaaaf {
+   
+    color: #fff;
+   
+}
+        .information-a{
+
+ color: #fff;
+   
+}
+        .top-header-sec {
+  
+    background-color: #0e1f33;
+    background-image:none;
+}
+        .slide-text {
+      /* left: 5%; */
+    top: 18%;
+    width: 100%;
+    margin: auto;
+    padding: 0px 120px 0px 120px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+        .footer-location-icon {
+  
+    color: #fff;
+    
+}
+        .information-a:before {
+            color:#fff;
+        }
+        .footer-location-aaa {
+            color: #fff;
+        }
+        .menubar nav > ul > li > a {
+            color: #ffffff;
+        }
+        .topheaderborder {
+            border-radius:4px;
+   
+    background-image: url(https://www.transparenttextures.com/patterns/white-texture.png);
+    background-image: none;
+}
+          .bs-slider .bs-slider-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000bf!important;
+    }
+        .fixed {
+            position: fixed;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            background-color: #0e1f33;
+            color: #fff;
+            box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
+            z-index: 99999;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            -ms-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+
+        .sticky {
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            -ms-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+    </style>
+
+    <script>
+        $(window).scroll(function () {
+            var sticky = $('.sticky'),
+                scroll = $(window).scrollTop();
+
+            if (scroll >= 50) sticky.addClass('fixed');
+            else sticky.removeClass('fixed');
+        });
+    </script>
+
+
+    <%-- ..........javascript: ....................... --%>
+    <script>$(function () { $(document).on("scroll", function () { if ($(window).scrollTop() > 100) { $(".scroll-top-wrapper").addClass("show") } else { $(".scroll-top-wrapper").removeClass("show") } }); $(".scroll-top-wrapper").on("click", scrollToTop) }); function scrollToTop() { verticalOffset = typeof (verticalOffset) != "undefined" ? verticalOffset : 0; element = $("body"); offset = element.offset(); offsetTop = offset.top; $("html, body").animate({ scrollTop: offsetTop }, 500, "linear") }</script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("txt_password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <%-- ................top heading....................... --%>
+        <section>
+            <div class="top-header-sec sticky">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="logohead">
+                                <a rel="canonical" href="Default.aspx" class="logohead5555">
+                                    <img src="images/logo44.png"  title="Logo in Tauheed Institute of Technology, Katihar" alt="Logo in Tauheed Institute of Technology, Katihar" class="img-responsive logohead222" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                            <div class="topheader-t66">
+
+                                <div class="row">
+                                    <div class="topheaderborder">
+
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="text-mainsecc">
+                                                <a class="textmainsecc-a"><i class="fa fa-map-marker"></i>&nbsp; Newtown Action Area , Kolkata  Kolkata 700135</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="top-header-icons">
+                                                <ul class="top-header-icons-ul">
+                                                    <li><a rel="canonical" href="mailto:kumarsaurav32971@gmail.com"><b><i class="fa fa-envelope-o" aria-hidden="true"></i></b>&nbsp;kumarsaurav32971@gmail.com  &nbsp;|&nbsp;</a></li>
+                                                    <li><a rel="canonical" href="tel:9102689390"><b><i class="fa fa-phone" aria-hidden="true"></i></b>&nbsp;+91 9102689390 </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="menu-secmm">
+                                            <div class="menu-sec">
+
+                                                <header>
+                                                    <div class="header-wrap">
+                                                        <div class="menubar">
+                                                            <nav>
+                                                                <ul class="ints-ul">
+                                                                    <li><a rel="canonical" href="Default.aspx" class="home">Home</a></li>
+                                                                    <li><a rel="canonical" href="About-College.aspx" class="about">About Us</a>
+                                                                       <%-- <ul>
+                                                                            <li><a rel="canonical" href="About-College.aspx">About College</a></li>
+                                                                            <li><a rel="canonical" href="director-message.aspx">Director's Desk</a></li>
+                                                                            <li><a rel="canonical" href="our-motto.aspx">Our Motto</a></li>
+                                                                            <li><a rel="canonical" href="affiliation.aspx">Affiliation</a></li>
+                                                                            <li><a rel="canonical" href="location.aspx">Location</a></li>
+                                                                        </ul>--%>
+                                                                    </li>
+
+                                                                    <li><a rel="canonical" href="course.aspx" class="coursee">Courses </a>
+                                                                      
+                                                                    </li>
+
+                                                                      <%--  <li><a rel="canonical" href="#!" class="admissionn">Admission <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                                        <ul>
+                                                                            <li><a rel="canonical" href="admission.aspx">From NCPUL</a></li>
+                                                                            <li><a rel="canonical" href="courses2.aspx">From Maulana Mazharul Haque Arabic and Persian University</a></li>
+                                                                        </ul>
+                                                                    </li>    </ul>--%>
+
+                                                                 
+
+                                                                    <li><a rel="canonical" href="javascript:" class="gall">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                                        <ul>
+                                                                            <li><a rel="canonical" href="Image-gallery.aspx">Image Gallery</a></li>
+                                                                            <li><a rel="canonical" href="Media-gallery.aspx">Media Gallery</a></li>
+                                                                            <li><a rel="canonical" href="Video-gallery.aspx">Video Gallery</a></li>
+                                                                        </ul>
+                                                                    </li>
+
+                                                                    <li><a rel="canonical" href="Notice-board.aspx" class="noticeboard">Notice Board</a></li>
+
+                                                                    <li><a rel="canonical" href="Contact-Us.aspx" class="contactuss">Contact Us</a></li>
+
+                                                                </ul>
+                                                            </nav>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Header Wrap -->
+                                                </header>
+
+                                                <!-- Header -->
+
+                                                <div class="responsive-header">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+                                                            <div class="logof">
+
+                                                                <a rel="canonical" href="Default.aspx" class="hed-logo333">
+                                                                    <img src="images/logo111.png" class="img-responsive resmobile-logo" title="logo in Tauheed Institute of Technology, Katihar" alt="logo in Tauheed Institute of Technology, Katihar" />
+                                                                </a>
+
+                                                                <%--     <h3 class="logof-h3">Menu</h3>--%>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
+                                                            <div class="responsive-logobar">
+                                                                <a rel="canonical" class="menu-button" href="#" title=""><i class="fa fa-bars"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Responsive Logbar -->
+                                                    <div class="responsive-menu">
+                                                        <div class="responsive-menu-bg">
+                                                            <a rel="canonical" href="Default.aspx" class="logohead5555">
+                                                                <img src="images/logo21.png"  class="img-responsive smalllogo" title="" /></a>
+                                                            <a rel="canonical" class="close-menu" href="#" title=""><i class="fa fa-remove"></i></a>
+                                                        </div>
+
+                                                       <ul class="ints-ul">
+                                                                    <li><a rel="canonical" href="Default.aspx" class="home">Home</a></li>
+                                                                    <li><a rel="canonical" href="About-College.aspx" class="about">About Us</a>
+                                                                       <%-- <ul>
+                                                                            <li><a rel="canonical" href="About-College.aspx">About College</a></li>
+                                                                            <li><a rel="canonical" href="director-message.aspx">Director's Desk</a></li>
+                                                                            <li><a rel="canonical" href="our-motto.aspx">Our Motto</a></li>
+                                                                            <li><a rel="canonical" href="affiliation.aspx">Affiliation</a></li>
+                                                                            <li><a rel="canonical" href="location.aspx">Location</a></li>
+                                                                        </ul>--%>
+                                                                    </li>
+
+                                                                    <li><a rel="canonical" href="course.aspx" class="coursee">Courses </a>
+                                                                      
+                                                                    </li>
+
+                                                                      <%--  <li><a rel="canonical" href="#!" class="admissionn">Admission <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                                        <ul>
+                                                                            <li><a rel="canonical" href="admission.aspx">From NCPUL</a></li>
+                                                                            <li><a rel="canonical" href="courses2.aspx">From Maulana Mazharul Haque Arabic and Persian University</a></li>
+                                                                        </ul>
+                                                                    </li>    </ul>--%>
+
+                                                                 
+
+                                                                    <li><a rel="canonical" href="javascript:" class="gall">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                                        <ul>
+                                                                            <li><a rel="canonical" href="Image-gallery.aspx">Image Gallery</a></li>
+                                                                            <li><a rel="canonical" href="Media-gallery.aspx">Media Gallery</a></li>
+                                                                            <li><a rel="canonical" href="Video-gallery.aspx">Video Gallery</a></li>
+                                                                        </ul>
+                                                                    </li>
+
+                                                                    <li><a rel="canonical" href="Notice-board.aspx" class="noticeboard">Notice Board</a></li>
+
+                                                                    <li><a rel="canonical" href="Contact-Us.aspx" class="contactuss">Contact Us</a></li>
+
+                                                                </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <%--..............login................. --%>
+        <div class="modal fade" id="myModal" role="dialog" style="z-index: 999999">
+            <div class="modal-dialog">
+                <div class="modal-content" style="position: relative">
+                    <div class="modal-header22">
+                        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                        <h3 class="modal-title" style="color: white; font-size: 25px; margin: 0; font-size: 20px; font-family: 'Open Sans'">Please login Your Account</h3>
+                    </div>
+                  
+                    <div class="modal-body">
+                        <asp:UpdatePanel runat="server" ID="UpdatePanel1">
+                            <ContentTemplate>
+
+                                <div class="loginform-group">
+                                    <p class="loginpsec">Enter Username</p>
+                                    <asp:TextBox runat="server" ID="txt_username" type="text" placeholder="Enter Username" CssClass="loginformcontrol"></asp:TextBox>
+                                </div>
+
+                                <div class="loginform-group">
+                                    <p class="loginpsec">Enter Password</p>
+                                    <asp:TextBox runat="server" ID="txt_password" type="password" placeholder="Enter Password" CssClass="loginformcontrol"></asp:TextBox>
+                                    <asp:CheckBox ID="CheckBox1" onclick="myFunction()" CssClass="checkboxdd" runat="server" Text="Show Password" />
+                                </div>
+
+                                <div class="loginform-button">
+                                    <asp:Button runat="server" ID="btn_login" CssClass="loginbutton" Text="Login" OnClick="btn_login_Click" />
+                                    <asp:Label runat="server" ID="lblmessage22" CssClass="loginmessage333"></asp:Label>
+                                </div>
+
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                    </div>
+
+                    <div class="modal-footer">
+                        <asp:UpdateProgress ID="UpdateProgress2" runat="server" AssociatedUpdatePanelID="UpdatePanel1" DynamicLayout="False">
+                            <ProgressTemplate>
+                                <p class="waiting">
+                                    &nbsp;&nbsp;&nbsp;
+                                    <img src="images/please_wait_small.gif" style="width: 150px;" />
+                                </p>
+                            </ProgressTemplate>
+                        </asp:UpdateProgress>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <%--......footer.......--%>
+        <section>
+            <div class="main-footer-top">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay=".15s">
+                            <div class="about-footer-sec">
+                                <h2 class="about-footer-sec-h2">About College</h2>
+                                <div class="quick-links">
+                                    <p class="quickaaaf">
+                                        Tauheed Institute of Technology is an emerging institution in the field of Career-Oriented Computer Education provider in Kolkata.
+Welcome to TIIT <b>(Tauheed Institute of Technology),</b> an emerging IT-Institution for better Education.
+                                     <a rel="canonical" href="About-College.aspx" class="readmoreaaa">{ Read More &nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
+                            <div class="about-footer-sec">
+                                <div class="row">
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="about-footer-sec">
+                                            <h2 class="about-footer-sec-h2">Quick Link</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="quick-links">
+                                            <ul class="information-ul">
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="Career.aspx">Careers</a></li>
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="course.aspx">course By NCPUL</a></li>
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="course-structure.aspx">By TIIT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                      
+                                        <div class="quick-links">
+                                            
+                                           
+                                   
+                                            <ul class="information-ul">
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="Notice-board.aspx">Notice Board</a></li>
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="News-and-events.aspx">Latest News</a></li>
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="Image-gallery.aspx">Image Gallery</a></li>
+                                                <li class="information-li"><a rel="canonical" class="information-a" href="Video-gallery.aspx">Video Gallery</a></li>
+                                                <li class="information-li"><a rel="canonical" data-toggle="modal" data-target="#myModal" class="information-a" href="javascript:" title="">Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay=".10s">
+                            <div class="about-footer-sec">
+                                <h2 class="about-footer-sec-h2">Contact Us</h2>
+                                <div class="quick-links">
+
+                                    <div class="footer-location-se">
+                                        <i class="fa fa-map-marker footer-location-icon"></i>
+                                        <div class="footer-location-sectext">
+                                            <a title="" class="footer-location-aaa">New Town Kolkata, (West Bengal)700135</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="footer-location-se">
+                                        <i class="fa fa-envelope-o footer-location-icon"></i>
+                                        <div class="footer-location-sectext">
+                                            <a rel="canonical" href="mailto:tiiteftekhar@yahoo.com" class="footer-location-aaa">tiiteftekhar@yahoo.com</a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="footer-location-se">
+                                        <i class="fa fa-phone footer-location-icon"></i>
+                                        <div class="footer-location-sectext">
+                                            <a rel="canonical" href="tel:9431437946" class="footer-location-aaa">+91 9431437946,  &nbsp;/&nbsp;</a>
+                                            <a rel="canonical" href="tel:9534700725" class="footer-location-aaa">9534700725 </a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="footer44-social">
+                                        <ul class="footer55-social-ul">
+                                            <li><a rel="canonical" href="javascript:" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a rel="canonical" href="javascript:" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a rel="canonical" href="javascript:" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                            <li><a rel="canonical" href="javascript:" title="Whatsapp"><i style="font-size: 16px;" class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <div class="main-footertopsecond">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="footer-down-iner">
+                            <p>©2023 Reserved Under <b>Tauheed Institute of Technology</b></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="footer-down-iner2">
+                            <p class="designer_link2">
+                                 Developed by - <a rel="canonical" class="designerlin66" href="#!">Saurav Sumit Arkaprava   </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%-- ..........top arrow......................... --%>
+        <%--        <div class="scroll-top-wrapper">
+            <span class="scroll-top-inner">
+                <i class="fa fa-2x fa fa-long-arrow-up" style="-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(-45deg)"></i>
+            </span>
+        </div>--%>
+
+
+
+        <%-- ....................slider........................ --%>
+        <script src="slider/js/bootstrap.min.js"></script>
+        <script src="slider/js/css3-animate-it.js"></script>
+        <script src="slider/js/owl.carousel.min.js"></script>
+        <script src="slider/js/gallery.js"></script>
+        <script src="slider/js/player.min.js"></script>
+        <script src="slider/js/comming-soon.js"></script>
+        <script src="slider/js/script.js"></script>
+
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/63456c6e54f06e12d89993dd/1gf3iv494';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+
+
+    </form>
+</body>
+</html>
+

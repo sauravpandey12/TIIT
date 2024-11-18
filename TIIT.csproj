@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26DB95FE-BCE1-4F8D-AAFE-E75B0E6FCB30}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TIIT</RootNamespace>
+    <AssemblyName>TIIT</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About-College.aspx" />
+    <Content Include="admission.aspx" />
+    <Content Include="affiliation.aspx" />
+    <Content Include="album\07_11_202210_08_48PIMG1.jpg" />
+    <Content Include="album\11_11_202204_53_04PIMG1.jpg" />
+    <Content Include="album\career\careers.png" />
+    <Content Include="album\download\Copy of 22_01_202210_41_25PIMG1.jpg" />
+    <Content Include="album\notice_board\11_11_202204_51_27 Notice .jpg" />
+    <Content Include="album\result\11_11_202204_53_04PIMG1.jpg" />
+    <Content Include="album\teaching\02_01_202004_32_33annual.jpg" />
+    <Content Include="animation\animate.css" />
+    <Content Include="animation\how to use.txt" />
+    <Content Include="animation\wow.js" />
+    <Content Include="App_Data\TIIT_Loc.mdf" />
+    <Content Include="App_Data\TIIT_Loc_log.ldf">
+      <DependentUpon>TIIT_Loc.mdf</DependentUpon>
+    </Content>
+    <Content Include="Career.aspx" />
+    <Content Include="coming-soon.aspx" />
+    <Content Include="Contact-Us.aspx" />
+    <Content Include="course-structure.aspx" />
+    <Content Include="course.aspx" />
+    <Content Include="courses2.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\login_modal.css" />
+    <Content Include="css\midea.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Download.aspx" />
+    <Content Include="fonts\flaticon.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Gallery\jquery.filterizr.js" />
+    <Content Include="Gallery\jquery.swipebox.min.js" />
+    <Content Include="Gallery\style.css" />
+    <Content Include="Gallery\swipebox.css" />
+    <Content Include="googlef726ba15745ba3cd.html" />
+    <Content Include="Image-gallery.aspx" />
+    <Content Include="images\aboutdefa.jpg" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\diploma.jpg" />
+    <Content Include="images\director.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\hpatintt.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\link\admission.png" />
+    <Content Include="images\link\calendar.png" />
+    <Content Include="images\link\course.png" />
+    <Content Include="images\link\fac.png" />
+    <Content Include="images\link\form.png" />
+    <Content Include="images\link\hostel.png" />
+    <Content Include="images\link\faculity.png" />
+    <Content Include="images\link\result.png" />
+    <Content Include="images\link\scholarship.png" />
+    <Content Include="images\link\students.png" />
+    <Content Include="images\link\syllabus.png" />
+    <Content Include="images\logo44.png" />
+    <Content Include="images\logo21.png" />
+    <Content Include="images\logo111.png" />
+    <Content Include="images\members\babul_sir.jpg" />
+    <Content Include="images\members\member.jpg" />
+    <Content Include="images\members\umang_sir.jpg" />
+    <Content Include="images\news.gif" />
+    <Content Include="images\please_wait_small.gif" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\slider\slider-1.jpg" />
+    <Content Include="images\slider\slider-2.jpg" />
+    <Content Include="images\student\kamal.jpg" />
+    <Content Include="images\student\saurav.jpg" />
+    <Content Include="images\student\studentimg.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="location.aspx" />
+    <Content Include="MasterAdmin\Add-News.aspx" />
+    <Content Include="MasterAdmin\add-video-category.aspx" />
+    <Content Include="MasterAdmin\calender\jquery-ui.js" />
+    <Content Include="MasterAdmin\calender\jqueryUI.css" />
+    <Content Include="MasterAdmin\Change-Password.aspx" />
+    <Content Include="MasterAdmin\Contact-Enquiry.aspx" />
+    <Content Include="MasterAdmin\css\bootstrap-reset.css" />
+    <Content Include="MasterAdmin\css\bootstrap.min.css" />
+    <Content Include="MasterAdmin\css\custom.css" />
+    <Content Include="MasterAdmin\css\font-awesome.css" />
+    <Content Include="MasterAdmin\css\style-responsive.css" />
+    <Content Include="MasterAdmin\css\style.css" />
+    <Content Include="MasterAdmin\css\txtbox.css" />
+    <Content Include="MasterAdmin\Dashboard.aspx" />
+    <Content Include="MasterAdmin\Download.aspx" />
+    <Content Include="MasterAdmin\images\avatar1_small.jpg" />
+    <Content Include="MasterAdmin\images\close.png" />
+    <Content Include="MasterAdmin\images\purnank.png" />
+    <Content Include="MasterAdmin\images\sidebar.jpg" />
+    <Content Include="MasterAdmin\js\bootstrap.min.js" />
+    <Content Include="MasterAdmin\js\jquery-1.10.2.min.js" />
+    <Content Include="MasterAdmin\js\jquery.dcjqaccordion.2.7.js" />
+    <Content Include="MasterAdmin\js\jquery.easypiechart.js" />
+    <Content Include="MasterAdmin\js\jquery.flot.js" />
+    <Content Include="MasterAdmin\js\jquery.flot.pie.resize.js" />
+    <Content Include="MasterAdmin\js\jquery.flot.resize.js" />
+    <Content Include="MasterAdmin\js\jquery.flot.tooltip.min.js" />
+    <Content Include="MasterAdmin\js\jquery.js" />
+    <Content Include="MasterAdmin\js\jquery.nicescroll.js" />
+    <Content Include="MasterAdmin\js\jquery.scrollTo.min.js" />
+    <Content Include="MasterAdmin\js\jquery.slimscroll.js" />
+    <Content Include="MasterAdmin\js\jquery.sparkline.js" />
+    <Content Include="MasterAdmin\js\ng-youtube-embed.min.js" />
+    <Content Include="MasterAdmin\js\scripts.js" />
+    <Content Include="MasterAdmin\Media_Coverage.aspx" />
+    <Content Include="MasterAdmin\Notice_Board.aspx" />
+    <Content Include="MasterAdmin\Popup.aspx" />
+    <Content Include="MasterAdmin\Upload-Image.aspx" />
+    <Content Include="MasterAdmin\Upload-video.aspx" />
+    <Content Include="MasterAdmin\Upload_Video_List.aspx" />
+    <Content Include="MasterAdmin\View-Career.aspx" />
+    <Content Include="MasterAdmin\WebForm1.aspx" />
+    <Content Include="MasterAdmin\WebService1.asmx" />
+    <Content Include="Media-gallery.aspx" />
+    <Content Include="menu\jquery.min.js" />
+    <Content Include="menu\script.js" />
+    <Content Include="menu\style.css" />
+    <Content Include="News-and-events.aspx" />
+    <Content Include="Notice-board.aspx" />
+    <Content Include="our-motto.aspx" />
+    <Content Include="owl\font-awesome.min.css" />
+    <Content Include="owl\owl.carousel.min.js" />
+    <Content Include="owl\owl.css" />
+    <Content Include="owl\script.js" />
+    <Content Include="Popup\college.jpg" />
+    <Content Include="Popup\popup.css" />
+    <Content Include="robots.txt" />
+    <Content Include="slider\css\animate.min.css" />
+    <Content Include="slider\css\fancyBox.css" />
+    <Content Include="slider\css\style.css" />
+    <Content Include="slider\js\bootstrap.min.js" />
+    <Content Include="slider\js\comming-soon.js" />
+    <Content Include="slider\js\css3-animate-it.js" />
+    <Content Include="slider\js\gallery.js" />
+    <Content Include="slider\js\owl.carousel.min.js" />
+    <Content Include="slider\js\player.min.js" />
+    <Content Include="slider\js\script.js" />
+    <Content Include="Video-gallery.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebService1.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About-College.aspx.cs">
+      <DependentUpon>About-College.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About-College.aspx.designer.cs">
+      <DependentUpon>About-College.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admission.aspx.cs">
+      <DependentUpon>admission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admission.aspx.designer.cs">
+      <DependentUpon>admission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="affiliation.aspx.cs">
+      <DependentUpon>affiliation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="affiliation.aspx.designer.cs">
+      <DependentUpon>affiliation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Career.aspx.cs">
+      <DependentUpon>Career.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Career.aspx.designer.cs">
+      <DependentUpon>Career.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coming-soon.aspx.cs">
+      <DependentUpon>coming-soon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coming-soon.aspx.designer.cs">
+      <DependentUpon>coming-soon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact-Us.aspx.cs">
+      <DependentUpon>Contact-Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact-Us.aspx.designer.cs">
+      <DependentUpon>Contact-Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="course-structure.aspx.cs">
+      <DependentUpon>course-structure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="course-structure.aspx.designer.cs">
+      <DependentUpon>course-structure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="course.aspx.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="course.aspx.designer.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="courses2.aspx.cs">
+      <DependentUpon>courses2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="courses2.aspx.designer.cs">
+      <DependentUpon>courses2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Image-gallery.aspx.cs">
+      <DependentUpon>Image-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Image-gallery.aspx.designer.cs">
+      <DependentUpon>Image-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="location.aspx.cs">
+      <DependentUpon>location.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="location.aspx.designer.cs">
+      <DependentUpon>location.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main.Master.cs">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.Master.designer.cs">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Add-News.aspx.cs">
+      <DependentUpon>Add-News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Add-News.aspx.designer.cs">
+      <DependentUpon>Add-News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\add-video-category.aspx.cs">
+      <DependentUpon>add-video-category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\add-video-category.aspx.designer.cs">
+      <DependentUpon>add-video-category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Change-Password.aspx.cs">
+      <DependentUpon>Change-Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Change-Password.aspx.designer.cs">
+      <DependentUpon>Change-Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Contact-Enquiry.aspx.cs">
+      <DependentUpon>Contact-Enquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Contact-Enquiry.aspx.designer.cs">
+      <DependentUpon>Contact-Enquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\main.Master.cs">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\main.Master.designer.cs">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Media_Coverage.aspx.cs">
+      <DependentUpon>Media_Coverage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Media_Coverage.aspx.designer.cs">
+      <DependentUpon>Media_Coverage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Notice_Board.aspx.cs">
+      <DependentUpon>Notice_Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Notice_Board.aspx.designer.cs">
+      <DependentUpon>Notice_Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Popup.aspx.cs">
+      <DependentUpon>Popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Popup.aspx.designer.cs">
+      <DependentUpon>Popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload-Image.aspx.cs">
+      <DependentUpon>Upload-Image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload-Image.aspx.designer.cs">
+      <DependentUpon>Upload-Image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload-video.aspx.cs">
+      <DependentUpon>Upload-video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload-video.aspx.designer.cs">
+      <DependentUpon>Upload-video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload_Video_List.aspx.cs">
+      <DependentUpon>Upload_Video_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\Upload_Video_List.aspx.designer.cs">
+      <DependentUpon>Upload_Video_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\View-Career.aspx.cs">
+      <DependentUpon>View-Career.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\View-Career.aspx.designer.cs">
+      <DependentUpon>View-Career.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin\WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Media-gallery.aspx.cs">
+      <DependentUpon>Media-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Media-gallery.aspx.designer.cs">
+      <DependentUpon>Media-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My.cs" />
+    <Compile Include="News-and-events.aspx.cs">
+      <DependentUpon>News-and-events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News-and-events.aspx.designer.cs">
+      <DependentUpon>News-and-events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notice-board.aspx.cs">
+      <DependentUpon>Notice-board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notice-board.aspx.designer.cs">
+      <DependentUpon>Notice-board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="our-motto.aspx.cs">
+      <DependentUpon>our-motto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-motto.aspx.designer.cs">
+      <DependentUpon>our-motto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Video-gallery.aspx.cs">
+      <DependentUpon>Video-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Video-gallery.aspx.designer.cs">
+      <DependentUpon>Video-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.Master" />
+    <Content Include="fonts\Flaticon.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Simple-Line-Icons-Pro.ttf" />
+    <Content Include="MasterAdmin\main.Master" />
+    <None Include="Properties\PublishProfiles\college.pubxml" />
+    <None Include="Properties\PublishProfiles\college1.pubxml" />
+    <None Include="Properties\PublishProfiles\tiit_published.pubxml" />
+    <None Include="Properties\PublishProfiles\tiit_Publishedd.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25720/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

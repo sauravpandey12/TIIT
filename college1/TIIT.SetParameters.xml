@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="website" />
+  <setParameter name="con-Web.config Connection String" value="Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\saurav_web\saurav\TIIT\TIIT\TIIT\App_Data\TIIT_Loc.mdf;Integrated Security=True" />
+</parameters>

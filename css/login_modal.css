@@ -1,0 +1,208 @@
+﻿.modal-body {
+    background: #ffffff;
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: 0px 15px 20px 15px;
+}
+
+.checkboxdd {
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+}
+
+input[type=checkbox], input[type=radio] {
+    background: #000;
+    border-style: none;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 5px;
+    margin: 0px 10px 0px 0px;
+}
+
+.modal-dialog {
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.modal-content {
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.modal-header22 {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    float: left;
+    background-color: #42892d;
+    border-bottom: 1px solid #42892d;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    top: -9px;
+    right: -7px;
+    position: absolute;
+    color: #fff;
+    opacity: 10;
+}
+
+.loginform-group {
+    height: auto;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.loginpsec {
+    height: auto;
+    width: 100%;
+    margin: 5px 0px 3px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #333;
+    font-weight: 400;
+}
+
+.loginformcontrol {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+    .loginformcontrol:focus {
+        border-color: #ccc!important;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    }
+
+
+
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.modal-footer {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.waiting {
+    padding: 25px 15px 15px 14px;
+    font-size: 16px;
+    bottom: 0px;
+    left: 1px;
+    top: 196px;
+    background: #fff;
+    color: #1a1313;
+    height: 87px!important;
+    z-index: 1000;
+    font-size: 17px;
+    text-align: center;
+    width: 99.8%;
+    position: absolute;
+}
+
+.loginform-button {
+    height: auto;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+
+.loginbutton {
+    height: auto;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 50px;
+    float: left;
+    background-color: #42892d;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border: 2px solid #42892d;
+}
+
+    .loginbutton:hover {
+        background-color: #bb2221;
+        border: 2px solid #bb2221;
+    }
+
+.gotoback {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.gotoback-ul {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    text-align:center;
+}
+
+.gotoback-ul li {
+margin: 0px 3px;
+    padding: 7px 0px 7px 3px;
+    height: auto;
+    list-style-type: none;
+    display: inline;
+}
+
+.gotoback-ul li a {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+    height: auto;
+    color: #333;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+}
